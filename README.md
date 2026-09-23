@@ -31,7 +31,7 @@ sudo apt install chromium-browser chromium-chromedriver
 Clone this repository, set up a virtual environment, and install the required dependencies.
 ```bash
 git clone https://github.com/IsaiG7/Rasberry_Pi_Deal_Scraper.git
-cd Local-Deal-Hub
+cd my_deal_hub
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -64,6 +64,3 @@ The script will hijack the open browser on port 9222, utilize your native trust 
 
 ## ⚠️ Disclaimer
 This project was built for educational purposes to demonstrate Python automation, HTML parsing, and local networking on a Raspberry Pi. Ensure your scraping activities comply with the Terms of Service of the targeted websites. 
-
-## 📝 License
-Distributed under the MIT License. See `LICENSE` for more information.
